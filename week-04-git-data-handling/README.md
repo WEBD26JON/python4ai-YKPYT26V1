@@ -1,4 +1,4 @@
 ## Noteringar , Vecka 4
 
-[Venv](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/blob/main/week-04-git-data-handling/venv-aktivering.md)<br>
-[Venv-aktivering]()
+[Venv](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/blob/main/week-04-git-data-handling/venv.md)<br>
+[Venv-aktivering](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/blob/main/week-04-git-data-handling/venv-aktivering.md)
