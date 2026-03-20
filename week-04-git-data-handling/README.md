@@ -1,4 +1,4 @@
-Projekt : https://github.com/Soviet9773Red/ollama-gradio-chat
+
 
 ## Venv. Skapa och aktivera en virtuell miljö (venv)
 
