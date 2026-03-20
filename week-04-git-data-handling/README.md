@@ -1,6 +1,5 @@
-## Noteringar , Vecka 4
+## Contents, vecka 4
 
-Contents.
 
 
 [Venv](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/blob/main/week-04-git-data-handling/venv.md)
