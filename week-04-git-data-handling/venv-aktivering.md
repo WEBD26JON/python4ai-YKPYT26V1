@@ -76,7 +76,7 @@ Python: Select Interpreter
 
 Välj din virtuella miljö:
 
-...\.venv\Scripts\python.exe
+..\.venv\Scripts\python.exe
 
 
 ### ✔️ Resultat
