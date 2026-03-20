@@ -55,13 +55,9 @@ Om man vill undvika detta helt kan man använda:
 .\.venv\Scripts\python.exe script.py
 
 
-
 ## 📌 Notering
 
 Problemet är inte relaterat till Python eller `venv` i sig, utan till PowerShells säkerhetsmodell. Det är en vanlig källa till förvirring, särskilt i utbildningsmiljöer där detta inte alltid förklaras tydligt.
-
-
----
 
 
 ## ⚙️ Automatisk hantering av venv i VSCode
@@ -82,7 +78,6 @@ Välj din virtuella miljö:
 
 ...\week4\.venv\Scripts\python.exe
 
----
 
 ### ✔️ Resultat
 
@@ -95,8 +90,6 @@ Efter detta:
 - Körning via "Run" eller "Play"-knappen använder korrekt miljö
   
 
----
-
 ### 📌 Viktigt att förstå
 
 VSCode "aktiverar" inte venv på samma sätt som PowerShell-kommandot.  
@@ -108,8 +101,6 @@ Detta innebär att:
   
 - miljön fungerar korrekt även utan synlig `(.venv)` i prompten
   
-
----
 
 ## 🔁 Alternativ utan aktivering (direkt anrop)
 
