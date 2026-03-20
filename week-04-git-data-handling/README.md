@@ -22,8 +22,30 @@ source .venv/Scripts/activate
 ```
 .venv\Scripts\activate.bat
 ```
----
 
+Navigering i sökvägar (kort)
+
+- `.` = aktuell mapp
+  
+- `..` = en nivå upp
+  
+- `/` används i Git Bash / Linux / macOS
+  
+- `\` används i Windows (PowerShell / CMD)
+  
+
+**Exempel:**
+
+Aktivera venv i samma mapp:
+```
+.\.venv\Scripts\Activate.ps1 # PowerShell  
+source .venv/Scripts/activate # Git Bash
+```
+Aktivera venv från undermapp (t.ex. `sandbox`):
+```
+..\.venv\Scripts\Activate.ps1 # PowerShell  
+source ../.venv/Scripts/activate # Git Bash
+```
 ### 3. Kontrollera att miljön är aktiv
 
 Prompten ska visa:
