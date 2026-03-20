@@ -1,4 +1,4 @@
-##### 🛠 Problem med aktivering av venv i PowerShell (Windows)
+## 🛠 Problem med aktivering av venv i PowerShell (Windows)
 
 När man försöker aktivera en virtuell miljö (`venv`) i PowerShell kan följande fel uppstå:
 
@@ -8,7 +8,7 @@ Detta beror på att PowerShell som standard blockerar körning av `.ps1`-skript 
 
 ---
 
-## ✔️ Tillfällig lösning (rekommenderad)
+### ✔️ Tillfällig lösning (rekommenderad)
 
 Kör följande kommando i PowerShell:
 
