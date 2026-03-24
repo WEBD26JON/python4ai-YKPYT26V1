@@ -10,6 +10,7 @@
 
 [Venv python.org](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
 
+[Skikit-learn.md](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/blob/main/week-04-git-data-handling/Scikit-learn.md)
 
 # Översikt: Approximationsmetoder (anpassning av modeller)
 
