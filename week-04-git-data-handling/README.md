@@ -1,7 +1,6 @@
 ## Contents, vecka 4
 
 
-
 [Venv](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/blob/main/week-04-git-data-handling/venv.md)
 
 [Venv-aktivering](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/blob/main/week-04-git-data-handling/venv-aktivering.md)
@@ -12,7 +11,7 @@
 
 [Skikit-learn.md](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/blob/main/week-04-git-data-handling/Scikit-learn.md)
 
-# Översikt: Approximationsmetoder (anpassning av modeller)
+## Översikt: Approximationsmetoder (anpassning av modeller)
 
 **Definition:**  
 Approximationsmetoder används för att hitta en funktion som bäst beskriver sambandet mellan indata och utdata baserat på observationer.
@@ -132,7 +131,7 @@ Terminologi:
 
 ---
 
-## 📌 Sammanfattning
+## Sammanfattning
 
 - Linjär regression är den enklaste approximationsmetoden
 - De flesta ML-algoritmer bygger på samma idé: minimera fel
