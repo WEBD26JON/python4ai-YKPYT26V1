@@ -8,6 +8,8 @@ df = pd.read_csv("data/delivery_times.csv")
 # print(df.columns)
 # print(df.dtypes)
 
+print("There is a positive relationship: longer distance -> longer delivery time.")
+
 # Customization
 sns.set_theme(style="whitegrid")
 
