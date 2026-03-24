@@ -17,7 +17,7 @@ Syftet med repositoryt är att:
 [Vecka 1 [v. 09-2026]](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/tree/main/week-01-intro-python-ai)<br>
 [Vecka 2 [v. 10-2026]](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/tree/main/week-02-control-flow-functions)<br>
 [Vecka 3 [v. 11-2026]](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/blob/main/week-03-oop/README.md)<br>
-[Vecka 4 [v. 12-2026]](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/blob/main/week-04-git-data-handling/README.md)<br>
+[Vecka 4 -5 [v. 12-13-2026]](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/blob/main/week-04-git-data-handling/README.md)<br>
 
 
 #### Mitt projekt : 
