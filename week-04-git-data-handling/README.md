@@ -132,9 +132,5 @@ Terminologi:
 - De flesta ML-algoritmer bygger på samma idé: minimera fel
 - Skillnaden ligger i modellens komplexitet och flexibilitet
 
----
-
-## 📌 Kort formulering (för diskussion)
-
 Maskininlärning i grundform är generaliserad approximation,  
 där modellen anpassas automatiskt utifrån data istället för att definieras manuellt.
