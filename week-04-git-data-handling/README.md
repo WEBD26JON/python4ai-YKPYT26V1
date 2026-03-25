@@ -4,7 +4,7 @@
 - [Venv-aktivering](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/blob/main/week-04-git-data-handling/venv-aktivering.md)
 - [VSC-venv](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/blob/main/week-04-git-data-handling/VSC-venv.md)
 - [Venv python.org](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
-- [Skikit-learn.md](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/blob/main/week-04-git-data-handling/Scikit-learn.md)
+- [Skikit-learn.md](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/blob/main/week-04-git-data-handling/scikit-learn.md)
 
 ## Översikt: Approximationsmetoder (anpassning av modeller)
 
