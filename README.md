@@ -1,6 +1,8 @@
 # python4ai-YKPYT26V1
 Pythonprogrammering för AI-utveckling, 30 yhp<br>
-https://github.com/neurothrone/python-for-ai
+https://github.com/neurothrone/python-for-ai<br>
+src:<br>
+https://github.com/neurothrone/python-for-ai-source-code
 
 Om detta repository
 
