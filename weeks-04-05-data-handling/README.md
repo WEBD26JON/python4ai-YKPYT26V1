@@ -1,11 +1,11 @@
 ## Contents, veckor 4-5
 
-- [Venv](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/blob/main/week-04-git-data-handling/venv.md)
-- [Venv-aktivering](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/blob/main/week-04-git-data-handling/venv-aktivering.md)
-- [VSC-venv](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/blob/main/week-04-git-data-handling/VSC-venv.md)
+- [Venv](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/blob/main/weeks-04-05-data-handling/venv.md)
+- [Venv-aktivering](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/blob/main/weeks-04-05-data-handling/venv-aktivering.md)
+- [VSC-venv](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/blob/main/weeks-04-05-data-handling/VSC-venv.md)
 - [Venv python.org](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
-- [Skikit-learn.md](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/blob/main/week-04-git-data-handling/scikit-learn.md)
-- [Grund-träning-test-prediktion i ML.md](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/blob/main/week-04-git-data-handling/Grund-tr%C3%A4ning-test-prediktion%20i%20ML.md)
+- [Skikit-learn.md](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/blob/main/weeks-04-05-data-handling/scikit-learn.md)
+- [Grund-träning-test-prediktion i ML.md](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/blob/main/weeks-04-05-data-handling/Grund-tr%C3%A4ning-test-prediktion%20i%20ML.md)
 
 ## Översikt: Approximationsmetoder (anpassning av modeller)
 
