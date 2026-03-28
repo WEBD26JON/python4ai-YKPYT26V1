@@ -4,7 +4,7 @@ Den här delen förklarar samma workflow som i kursen, men utan att behandla fun
 
 ---
 
-# 📌 1. Dataset – utgångspunkt
+##  1. Dataset – utgångspunkt
 
 Vi börjar med en enkel tabell:
 
@@ -25,7 +25,7 @@ Vi börjar med en enkel tabell:
 
 ---
 
-# 📌 2. Vad betyder träning och test?
+## 2. Vad betyder träning och test?
 
 ## 🔹 Träning (training)
 
@@ -43,7 +43,7 @@ Modellen testas på data den **inte har sett tidigare**.
 
 ---
 
-# 📌 3. Hur fungerar train/test split?
+## 3. Hur fungerar train/test split?
 
 Kod:
 
@@ -95,7 +95,7 @@ Test:  sista 2 rader
 
 ---
 
-# 📌 4. Vad är en “modell” här?
+## 4. Vad är en “modell” här?
 
 Kod:
 
@@ -115,7 +115,7 @@ Men:
 
 ---
 
-# 📌 5. Vad gör `.fit()`?
+## 5. Vad gör `.fit()`?
 
 ```python
 model.fit(X_train, y_train)
@@ -154,7 +154,7 @@ Detta är “träning”:
 
 ---
 
-# 📌 6. Vad gör `.predict()`?
+## 6. Vad gör `.predict()`?
 
 ```python
 predictions = model.predict(X_test)
@@ -175,7 +175,7 @@ y = 5.1 * 7 + 47.2 ≈ 82.9
 
 ---
 
-# 📌 7. Vad är egentligen en prediktion?
+## 7. Vad är egentligen en prediktion?
 
 Det är inte “gissning” i mänsklig mening.
 
@@ -185,7 +185,7 @@ Det är inte “gissning” i mänsklig mening.
 
 ---
 
-# 📌 8. Varför behövs testdata?
+## 8. Varför behövs testdata?
 
 Om vi testar på samma data:
 
@@ -239,7 +239,7 @@ model.predict(X_test)
 
 ---
 
-# 📌 10. Nyckelinsikt
+## 10. Nyckelinsikt
 
 Det viktigaste att förstå:
 
@@ -286,7 +286,7 @@ Om detta är tydligt:
 
 ---
 
-# 📌 Slut
+## 📌 Slut
 
 Den här förståelsen är grunden för allt som kommer senare:
 
