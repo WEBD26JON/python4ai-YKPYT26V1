@@ -268,11 +268,8 @@ Om detta är tydligt:
 Den här förståelsen är grunden för allt som kommer senare:
 
 - klassificering
-
 - k-NN
-
 - beslutsträd
-
 - neurala nätverk
 
 Alla följer samma princip:
