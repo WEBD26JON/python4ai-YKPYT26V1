@@ -2,8 +2,6 @@
 
 Den här delen förklarar samma workflow som i kursen, men utan att behandla funktionerna som “svarta lådor”. Fokus ligger på vad som faktiskt händer i varje steg.
 
----
-
 ##  1. Dataset – utgångspunkt
 
 Vi börjar med en enkel tabell:
@@ -20,28 +18,25 @@ Vi börjar med en enkel tabell:
 | 8             | 88         |
 
 - **Feature (X)** = input (hours_studied)
-
 - **Target (y)** = output (test_score)
 
----
 
 ## 2. Vad betyder träning och test?
 
-## 🔹 Träning (training)
+### 🔹 Träning (training)
 
 Modellen använder en del av datan för att hitta ett mönster.
 
-## 🔹 Test (testing)
+### 🔹 Test (testing)
 
 Modellen testas på data den **inte har sett tidigare**.
 
-👉 Syfte:
+Syfte:
 
 - kontrollera om modellen fungerar på nya data
-
 - inte bara på de data den redan sett
 
----
+
 
 ## 3. Hur fungerar train/test split?
 
@@ -56,7 +51,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 )
 ```
 
----
+
 
 ## 🔧 Vad händer bakom kulisserna
 
@@ -90,7 +85,6 @@ Test:  sista 2 rader
 👉 Viktigt:
 
 - train och test är olika rader
-
 - modellen ser aldrig test-datan under träning
 
 ---
@@ -103,7 +97,7 @@ Kod:
 model = LinearRegression()
 ```
 
-👉 Detta skapar en matematisk modell:
+* Detta skapar en matematisk modell:
 
 ```
 y = a * x + b
@@ -121,10 +115,9 @@ Men:
 model.fit(X_train, y_train)
 ```
 
-👉 Det som sker:
+* Det som sker:
 
 - modellen tittar på datapunkterna
-
 - beräknar den bästa linjen
 
 Exempel:
@@ -142,7 +135,7 @@ y = 5.1x + 47.2
 
 ---
 
-## ❗ Viktigt
+## Viktigt
 
 Detta är “träning”:
 
@@ -179,7 +172,7 @@ y = 5.1 * 7 + 47.2 ≈ 82.9
 
 Det är inte “gissning” i mänsklig mening.
 
-👉 Det är:
+* Det är:
 
 > att använda en beräknad regel på nya värden
 
@@ -196,9 +189,7 @@ model.predict(X_train)
 👉 modellen blir nästan perfekt
 
 MEN:
-
 - den har redan sett datan
-
 - resultatet är inte trovärdigt
 
 ---
@@ -217,27 +208,20 @@ model.predict(X_test)
 
 ---
 
-# 📌 9. Sammanfattning av hela flödet
+## 9. Sammanfattning av hela flödet
 
-## 🔁 Workflow (utan magi)
+### 🔁 Workflow (utan magi)
 
 1. Läs in data
-
 2. Välj X och y
-
 3. Blanda data
-
 4. Dela i train/test
-
 5. Skapa modell (formel)
-
 6. Fit → beräkna parametrar
-
 7. Predict → använd formeln
-
 8. Jämför med verkliga värden
 
----
+
 
 ## 10. Nyckelinsikt
 
@@ -246,39 +230,32 @@ Det viktigaste att förstå:
 > Machine Learning på denna nivå =  
 > data + matematik + struktur
 
----
+
 
 ## ❌ Inte:
 
 - intelligens
-
 - “tänkande”
-
 - komplex AI
 
----
+
 
 ## ✔️ Utan:
 
 - mönster
-
 - beräkning
-
 - generalisering
 
----
 
-# 📌 11. Varför detta är viktigt
+
+## 11. Varför detta är viktigt
 
 Om detta inte är tydligt:
 
 - blir biblioteket en “black box”
-
 - parametrar känns slumpmässiga
-
 - modellen känns mystisk
 
----
 
 Om detta är tydligt:
 
