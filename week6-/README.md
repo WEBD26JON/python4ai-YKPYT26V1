@@ -40,14 +40,12 @@ Syntax. `from sklearn.model_selection import train_test_split`
 
 k-NN fungerar genom att jämföra nya data med liknande exempel och fatta beslut baserat på närhet, inte på förståelse eller logik.
 
+---
 
 ### 02. Decision Trees
 
-
 ### 03. Metrics and Cross-Validation
-
 
 ### 04. Integration: Compare Classification Models
 
-
-## Week 6 Completion Checklist
+### Week 6 Completion Checklist
