@@ -29,7 +29,7 @@ Why can feature scale matter for k-NN?<br>
 
 - Ser till att **fördelningen av klasser** är liknande i train och test
 - Ger en mer rättvis och stabil utvärdering<br>
-Det hjälpte att förstå att `train_test_split()´ inte enbart delar datasetet, utan vanligtvis först blandar raderna för att göra testet mer rättvist.<br>
+Det hjälpte att förstå att `train_test_split()` inte enbart delar datasetet, utan vanligtvis först blandar raderna för att göra testet mer rättvist.<br>
 Syntax. `from sklearn.model_selection import train_test_split`
   
 #### 5. Varför spelar feature scale roll i k-NN?
