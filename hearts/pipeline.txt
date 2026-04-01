@@ -1,0 +1,14 @@
+1. hearts-data-clean.py
+2. hearts-vis.py
+3. hearts-prepare.py   
+4. hearts-logreg.py
+    4.1 hearts-logreg-scaled.py ← now
+5. hearts-knn.py
+
+project/
+├─ .venv
+├─ data/
+├─ scripts/
+│   ├─ hearts-*.py
+├─ outputs/
+├─ main.py
