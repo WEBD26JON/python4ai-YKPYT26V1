@@ -1,8 +1,5 @@
 
-
----
-
-# 📌 Project Structure
+## Project Structure
 
 hearts/  
 ├── data/        # input datasets (CSV)  
@@ -12,8 +9,7 @@ hearts/
 ├── main.py      # CLI entry point
 
 
-
-# ##Data Source
+## Data Source
 
 Dataset used in this project:
 
@@ -24,8 +20,7 @@ This dataset contains medical attributes of patients and a binary target indicat
 It includes features such as age, sex, chest pain type, cholesterol level, maximum heart rate, and others commonly used for classification tasks.
 
 
-
-# 📌 Installation
+# Installation
 
 ## 1. Clone repository
 
@@ -54,6 +49,8 @@ source .venv/bin/activate
 
 pip install pandas scikit-learn matplotlib seaborn
 
+eller: pip install req.txt
+
 ---
 
 ## 4. Add dataset
@@ -68,7 +65,7 @@ data/heart.csv
 
 
 
-# 📌 How to Run
+#  How to Run
 
 Start the CLI menu:
 
@@ -76,7 +73,7 @@ python main.py
 
 -
 
-# 📌 Available Actions
+#  Available Actions
 
 === DATA ===  
 0. View raw data  
@@ -97,7 +94,7 @@ python main.py
 
 
 
-# 📌 Notes
+##  Notes
 
 - Models are trained using processed data from `heart_prepared.csv`
 - Best performing model in this project: **k-NN with scaling (k=11)**
@@ -105,7 +102,7 @@ python main.py
 
 ---
 
-# 📌 Short Summary
+## 📌 Short Summary
 
 This project demonstrates a full ML pipeline:  
 raw data → cleaning → visualization → modeling → diagnosis
