@@ -20,7 +20,7 @@ Syftet med repositoryt är att:
 [Vecka 2 [v. 10-2026]](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/tree/main/week-02-control-flow-functions)<br>
 [Vecka 3 [v. 11-2026]](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/blob/main/week-03-oop/README.md)<br>
 [Veckor 4 -5 [v. 12-13-2026]](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/tree/main/weeks-04-05-data-handling)<br>
-
+[Vecka 6: Advanced ML](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/blob/main/week-06-advanced-ml/README.md)
 
 #### Mitt projekt : 
 https://github.com/Soviet9773Red/ollama-gradio-chat
