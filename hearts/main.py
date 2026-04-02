@@ -2,6 +2,13 @@
 # @license (c) Alexander Soviet9773Red - https://github.com/Soviet9773Red/
 # 🧠 main.py (CLI launcher)
 # ============================================================
+# project/
+# ├─ .venv
+# ├─ data/
+# ├─ scripts/
+# │   ├─ hearts-*.py
+# ├─ outputs/
+# ├─ main.py
 
 import sys
 import subprocess
