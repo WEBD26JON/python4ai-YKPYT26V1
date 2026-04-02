@@ -31,25 +31,25 @@ cd hearts
 
 ## 2. Create virtual environment
 
-python -m venv .venv
+`python -m venv .venv`
 
 Activate:
 
 **Windows (PowerShell / CMD):**
 
-.venv\Scripts\activate
+`.venv\Scripts\activate`
 
 **Linux / Mac:**
 
-source .venv/bin/activate
+`source .venv/bin/activate`
 
 
 
 ## 3. Install dependencies
 
-pip install pandas scikit-learn matplotlib seaborn
+`pip install pandas scikit-learn matplotlib seaborn`
 
-eller: pip install req.txt
+or: `pip install req.txt`
 
 ---
 
@@ -69,7 +69,7 @@ data/heart.csv
 
 Start the CLI menu:
 
-python main.py
+`python main.py`
 
 -
 
