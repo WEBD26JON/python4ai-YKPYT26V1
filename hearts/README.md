@@ -100,6 +100,11 @@ python main.py
 - Best performing model in this project: **k-NN with scaling (k=11)**
 - Diagnosis module uses trained pipeline to predict disease risk
 
+> All input features were scaled using StandardScaler before training 
+> the Logistic Regression and k-NN models.
+> 
+> Scaling was applied to the entire feature set, including both 
+> numerical and one-hot encoded categorical variables.
 ---
 
 ## 📌 Short Summary
