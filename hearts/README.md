@@ -56,9 +56,7 @@ Activate:
 
 ## 3. Install dependencies
 
-`pip install pandas scikit-learn matplotlib seaborn`
-
-or: `pip install req.txt`
+ `pip install req.txt`
 
 ---
 
