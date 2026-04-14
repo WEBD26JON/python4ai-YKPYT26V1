@@ -72,7 +72,7 @@ Place it into:
 
 data/heart.csv
 
-# How to Run
+## How to Run
 
 Start the CLI menu:
 
@@ -82,26 +82,26 @@ Start the CLI menu:
 
 # Available Actions
 
-HEART PROJECT
- === DATA ===
-0. View raw data - hearts.csv
-1. Clean .csv data
-2. Visualize cleaned data
-3. Prepare data for models
+HEART PROJECT<br>
+ === DATA ===<br>
+0. View raw data - hearts.csv<br>
+1. Clean .csv data<br>
+2. Visualize cleaned data<br>
+3. Prepare data for models<br>
 
- === Models and tuning. ===
-4.  Logistic Regression: no scaling
-5.  Logistic Regression: scaled
-6.  k-NN model with different k
-7.  Decision Tree
-8.  Random Forest
+ === Models and tuning. ===<br>
+4.  Logistic Regression: no scaling<br>
+5.  Logistic Regression: scaled<br>
+6.  k-NN model with different k<br>
+7.  Decision Tree<br>
+8.  Random Forest<br>
 9.  Bias analys
 
- === APPLICATION ===
+ === APPLICATION ===<br>
 D. Patient's diagnostic.
 
- === SYSTEM ===
-m Menu | e exit
+ === SYSTEM ===<br>
+m Menu | e exit<br>
 
 ## Notes
 
@@ -120,4 +120,5 @@ m Menu | e exit
 ## Short Summary
 
 This project demonstrates a full ML pipeline:  
-raw data → cleaning → visualization → modeling → diagnosis
+raw data → cleaning → visualization → modeling → diagnosis<br>
+Project rapport (swedish) : https://github.com/Soviet9773Red/python4ai-YKPYT26V1/edit/main/hearts/rapport.md
