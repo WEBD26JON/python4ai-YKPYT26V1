@@ -1,3 +1,5 @@
+Läs även [README.md](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/blob/main/hearts/README.md), [bias.md](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/blob/main/hearts/bias.md) och [data-help.md](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/blob/main/hearts/data-help.md)
+
 ## Heart Disease Prediction Project
 
 ### Sammanfattning
