@@ -22,5 +22,6 @@ Syftet med repositoryt är att:
 [Veckor 4 -5 [v. 12-13-2026]](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/tree/main/weeks-04-05-data-handling)<br>
 [Vecka 6: Advanced ML](https://github.com/Soviet9773Red/python4ai-YKPYT26V1/blob/main/week-06-advanced-ml/README.md)
 
-#### Mitt projekt : 
-https://github.com/Soviet9773Red/ollama-gradio-chat
+#### Kurs-projekt : 
+https://github.com/Soviet9773Red/ollama-gradio-chat<br>
+https://github.com/Soviet9773Red/python4ai-YKPYT26V1/tree/main/hearts
