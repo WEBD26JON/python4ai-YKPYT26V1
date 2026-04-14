@@ -121,4 +121,4 @@ m Menu | e exit<br>
 
 This project demonstrates a full ML pipeline:  
 raw data → cleaning → visualization → modeling → diagnosis<br>
-Project rapport (swedish) : https://github.com/Soviet9773Red/python4ai-YKPYT26V1/edit/main/hearts/rapport.md
+Project rapport (swedish) : https://github.com/Soviet9773Red/python4ai-YKPYT26V1/blob/main/hearts/rapport.md
