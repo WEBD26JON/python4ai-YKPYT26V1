@@ -1,14 +1,14 @@
-1. hearts-data-clean.py
-2. hearts-vis.py
-3. hearts-prepare.py   
-4. hearts-logreg.py
-    4.1 hearts-logreg-scaled.py ← now
-5. hearts-knn.py
 
-project/
-├─ .venv
+hearts/
 ├─ data/
-├─ scripts/
-│   ├─ hearts-*.py
+│   ├── heart_raw.csv
+│   ├── heart_clean.csv
+│   └──heart_prepared.csv
 ├─ outputs/
+│   └── bias_report_YYYY-MM-DD_hhmmss.txt
+├── tools/
+│   ├── __init__.py
+│   └── logger.py
 ├─ main.py
+├── scripts/
+    └── hearts-*.py

@@ -1,4 +1,3 @@
-
 ## Project Structure
 
 hearts/  
@@ -9,16 +8,30 @@ hearts/
 ├── main.py      # CLI entry point
 
 
+hearts/<br>
+├─ data/<br>
+│   ├── heart_raw.csv<br>
+│   ├── heart_clean.csv<br>
+│   └──heart_prepared.csv<br>
+├─ outputs/<br>
+│   └── bias_report_YYYY-MM-DD_hhmmss.txt<br>
+├── tools/<br>
+│   ├── __init__.py<br>
+│   └── logger.py<br>
+├─ main.py<br>
+├── scripts/<br>
+    └── hearts-*.py<br>
+
+
 ## Data Source
 
 Dataset used in this project:
 
-- [Heart Disease Dataset (Heart.csv)](https://github.com/rashida048/Datasets/blob/master/Heart.csv?utm_source=chatgpt.com)
+- [Heart Disease Dataset (Heart.csv)](https://github.com/rashida048/Datasets/blob/master/Heart.csv)
 
 **Description (short):**  
 This dataset contains medical attributes of patients and a binary target indicating the presence of heart disease (`AHD`).  
 It includes features such as age, sex, chest pain type, cholesterol level, maximum heart rate, and others commonly used for classification tasks.
-
 
 # Installation
 
@@ -26,8 +39,6 @@ It includes features such as age, sex, chest pain type, cholesterol level, maxim
 
 git clone <your-repo-url>  
 cd hearts
-
-
 
 ## 2. Create virtual environment
 
@@ -43,8 +54,6 @@ Activate:
 
 `source .venv/bin/activate`
 
-
-
 ## 3. Install dependencies
 
 `pip install pandas scikit-learn matplotlib seaborn`
@@ -57,15 +66,13 @@ or: `pip install req.txt`
 
 Download the dataset from:
 
-- [Heart.csv download](https://github.com/rashida048/Datasets/blob/master/Heart.csv?utm_source=chatgpt.com)
+- [Heart.csv download](https://github.com/rashida048/Datasets/blob/master/Heart.csv)
 
 Place it into:
 
 data/heart.csv
 
-
-
-#  How to Run
+# How to Run
 
 Start the CLI menu:
 
@@ -73,28 +80,30 @@ Start the CLI menu:
 
 -
 
-#  Available Actions
+# Available Actions
 
-=== DATA ===  
-0. View raw data  
+HEART PROJECT
+ === DATA ===
+0. View raw data - hearts.csv
+1. Clean .csv data
+2. Visualize cleaned data
+3. Prepare data for models
 
-1. Clean data  
-2. Visualize data  
-3. Prepare data  
+ === Models and tuning. ===
+4.  Logistic Regression: no scaling
+5.  Logistic Regression: scaled
+6.  k-NN model with different k
+7.  Decision Tree
+8.  Random Forest
+9.  Bias analys
 
-=== MODELS ===  
-4. Logistic Regression (no scaling)  
-5. Logistic Regression (scaled)  
-6. k-NN (tuning)  
-7. Decision Tree  
-8. Random Forest  
+ === APPLICATION ===
+D. Patient's diagnostic.
 
-=== APPLICATION ===  
-9. Patient diagnosis
+ === SYSTEM ===
+m Menu | e exit
 
-
-
-##  Notes
+## Notes
 
 - Models are trained using processed data from `heart_prepared.csv`
 - Best performing model in this project: **k-NN with scaling (k=11)**
@@ -105,9 +114,10 @@ Start the CLI menu:
 > 
 > Scaling was applied to the entire feature set, including both 
 > numerical and one-hot encoded categorical variables.
+
 ---
 
-## 📌 Short Summary
+## Short Summary
 
 This project demonstrates a full ML pipeline:  
 raw data → cleaning → visualization → modeling → diagnosis

@@ -31,20 +31,20 @@ def show_menu():
         "2. Visualize cleaned data\n"
         "3. Prepare data for models\n\n"
 
-        " === Models tuning. === \n"
+        " === Models and tuning. === \n"
 
-        "4.  Logistic Regression (no scaling)\n"
-        "5.  Logistic Regression (scaled)\n"
+        "4.  Logistic Regression: no scaling\n"
+        "5.  Logistic Regression: scaled\n"
         "6.  k-NN model with different k \n"
         "7.  Decision Tree\n"
-        "8.  Random Forest\n\n"
+        "8.  Random Forest\n"
+        "9.  Bias analys\n\n"
 
         " === APPLICATION ===\n"
-        "9. Patient's diagnostic.\n\n"
+        "D. Patient's diagnostic.\n\n"
 
         " === SYSTEM ===\n"
-        "m Menu\n"
-        "e exit\n"
+        "m Menu | e exit\n"
     )
 
 # Main loop
@@ -86,6 +86,9 @@ def main():
             run_script("scripts/hearts-rf.py")
 
         elif choice == "9":
+            run_script("scripts/hearts-bias-report.py")
+
+        elif choice == "D":
             run_script("scripts/hearts-diagnose.py")     
 
 

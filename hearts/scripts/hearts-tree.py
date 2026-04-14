@@ -25,8 +25,8 @@ X_train, X_test, y_train, y_test = train_test_split(
 
 # Model (Tree)
 # model = DecisionTreeClassifier(max_depth=5, random_state=42)
-# for depth in [2, 3, 4, 5, 6, 7, 8, None]:
-for depth in [3]:    
+for depth in [2, 3, 4, 5, 6, 7, 8, None]:
+#for depth in [3]:    
     model = DecisionTreeClassifier(max_depth=depth, random_state=42)
 
     model.fit(X_train, y_train)

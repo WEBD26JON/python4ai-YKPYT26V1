@@ -7,7 +7,7 @@ import pandas as pd
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
 
-df = pd.read_csv(DATA_DIR / "heart.csv")
+df = pd.read_csv(DATA_DIR / "heart_raw.csv")
 
 print("\n=== RAW DATA (HEAD) ===")
 print(df.head())

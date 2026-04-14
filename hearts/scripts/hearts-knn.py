@@ -49,8 +49,8 @@ X_test = scaler.transform(X_test)
 # 5. KNN model
 # -------------------------
 # model = KNeighborsClassifier(n_neighbors=3)
-#for k in [1, 3, 5, 7, 9, 11, 13]:
-for k in [11]:
+for k in [1, 3, 5, 7, 9, 11, 13, 15]:
+#for k in [11]:
     model = KNeighborsClassifier(n_neighbors=k)
 
     model.fit(X_train, y_train)
