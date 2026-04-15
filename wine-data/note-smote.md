@@ -1,4 +1,4 @@
-# SMOTE — Synthetic Minority Over-sampling Technique
+# SMOTE · Synthetic Minority Over-sampling Technique
 
 ## Vad är SMOTE?
 
