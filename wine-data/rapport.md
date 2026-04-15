@@ -94,6 +94,9 @@ Modellen hittar kvalitetsviner bra (recall 0.86) men missar
 en del ordinära viner (recall 0.59). Detta beror på klassimbalansen
 — 63% av datasetet är märkt som "high".
 
+Alla modeller tränas med `random_state=42` för reproducerbarhet.
+Se [42.md](42.md) för bakgrunden till detta val. 🔮
+
 ---
 
 ## Bias och begränsningar
