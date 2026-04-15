@@ -107,7 +107,7 @@ en del ordinära viner (recall 0.59). Detta beror på klassimbalansen
 - **Färgfördelning:** vita viner är ~3× fler än röda (3 961 vs 1 359
   efter rensning), vilket kan ge asymmetrisk prestanda per vintyp.
 - **Subjektiv målvariabel:** quality-betyget är en sensorisk bedömning
-  av experter — inte ett objektivt kemiskt mått.
+  av experter och inte ett objektivt kemiskt mått.
 
 ---
 
