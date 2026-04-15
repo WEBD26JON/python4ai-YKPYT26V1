@@ -129,6 +129,8 @@ och får ett klassificeringssvar med sannolikhet i fyra nivåer:
 Applikationen körs lokalt: `python scripts/wine-diagnose.py`
 och öppnas automatiskt i webbläsaren på `http://127.0.0.1:7860`.
 
+<img src="https://github.com/Soviet9773Red/python4ai-YKPYT26V1/blob/main/wine-data/wqc.jpg" width="450">
+
 ---
 
 ## Reflektion och förbättringsförslag
