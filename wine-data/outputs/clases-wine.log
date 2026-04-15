@@ -1,0 +1,42 @@
+=== INITIAL SHAPE: (5318, 13)
+
+=== RAW CLASSES ===
+Shape: (5318, 13)
+Target distribution:
+quality_class
+3      30
+4     206
+5    1752
+6    2321
+7     856
+8     148
+9       5
+Name: count, dtype: int64
+
+=== PREPARED 2 CLASSES (binary) ===
+Shape: (5318, 13)
+Target distribution:
+quality_class
+ordinary    1988
+high        3330
+Name: count, dtype: int64
+
+=== PREPARED 3a CLASSES ===
+Shape: (5318, 13)
+Target distribution:
+quality_class
+low       1988
+medium    2321
+high      1009
+Name: count, dtype: int64
+
+=== PREPARED 3b CLASSES ===
+Shape: (5318, 13)
+Target distribution:
+quality_class
+low       1988
+medium    3177
+high       153
+Name: count, dtype: int64
+
+> Done.

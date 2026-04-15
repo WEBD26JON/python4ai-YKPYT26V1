@@ -1,0 +1,165 @@
+(.venv) E:\_PROG_STUDIES\ITHS\Phyton4AI\wine-data>e:/_PROG_STUDIES/ITHS/Phyton4AI/wine-data/.venv/Scripts/python.exe e:/_PROG_STUDIES/ITHS/Phyton4AI/wine-data/scripts/knn.py
+=== DATA SHAPE ===
+(5318, 13)
+
+ ====== RESULTS k-NN (k=1) ====== 
+ Accuracy: 0.551
+
+CONFUSION MATRIX:
+[[129  25  98]
+ [ 29 291 177]
+ [105 163 313]]
+
+Classification report
+              precision    recall  f1-score   support
+
+        high       0.49      0.51      0.50       252
+         low       0.61      0.59      0.60       497
+      medium       0.53      0.54      0.54       581
+
+    accuracy                           0.55      1330
+   macro avg       0.54      0.55      0.54      1330
+weighted avg       0.55      0.55      0.55      1330
+
+
+ ====== RESULTS k-NN (k=3) ====== 
+ Accuracy: 0.543
+
+CONFUSION MATRIX:
+[[140  16  96]
+ [ 48 290 159]
+ [141 148 292]]
+
+Classification report
+              precision    recall  f1-score   support
+
+        high       0.43      0.56      0.48       252
+         low       0.64      0.58      0.61       497
+      medium       0.53      0.50      0.52       581
+
+    accuracy                           0.54      1330
+   macro avg       0.53      0.55      0.54      1330
+weighted avg       0.55      0.54      0.55      1330
+
+
+ ====== RESULTS k-NN (k=5) ====== 
+ Accuracy: 0.553
+
+CONFUSION MATRIX:
+[[127  25 100]
+ [ 36 316 145]
+ [115 173 293]]
+
+Classification report
+              precision    recall  f1-score   support
+
+        high       0.46      0.50      0.48       252
+         low       0.61      0.64      0.63       497
+      medium       0.54      0.50      0.52       581
+
+    accuracy                           0.55      1330
+   macro avg       0.54      0.55      0.54      1330
+weighted avg       0.55      0.55      0.55      1330
+
+
+ ====== RESULTS k-NN (k=7) ====== 
+ Accuracy: 0.571
+
+CONFUSION MATRIX:
+[[123  23 106]
+ [ 26 327 144]
+ [106 165 310]]
+
+Classification report
+              precision    recall  f1-score   support
+
+        high       0.48      0.49      0.49       252
+         low       0.63      0.66      0.65       497
+      medium       0.55      0.53      0.54       581
+
+    accuracy                           0.57      1330
+   macro avg       0.56      0.56      0.56      1330
+weighted avg       0.57      0.57      0.57      1330
+
+
+ ====== RESULTS k-NN (k=9) ====== 
+ Accuracy: 0.572
+
+CONFUSION MATRIX:
+[[121  21 110]
+ [ 24 323 150]
+ [101 163 317]]
+
+Classification report
+              precision    recall  f1-score   support
+
+        high       0.49      0.48      0.49       252
+         low       0.64      0.65      0.64       497
+      medium       0.55      0.55      0.55       581
+
+    accuracy                           0.57      1330
+   macro avg       0.56      0.56      0.56      1330
+weighted avg       0.57      0.57      0.57      1330
+
+
+ ====== RESULTS k-NN (k=11) ====== 
+ Accuracy: 0.580
+
+CONFUSION MATRIX:
+[[118  20 114]
+ [ 21 332 144]
+ [100 160 321]]
+
+Classification report
+              precision    recall  f1-score   support
+
+        high       0.49      0.47      0.48       252
+         low       0.65      0.67      0.66       497
+      medium       0.55      0.55      0.55       581
+
+    accuracy                           0.58      1330
+   macro avg       0.57      0.56      0.56      1330
+weighted avg       0.58      0.58      0.58      1330
+
+
+ ====== RESULTS k-NN (k=13) ====== 
+ Accuracy: 0.577
+
+CONFUSION MATRIX:
+[[112  17 123]
+ [ 22 326 149]
+ [ 90 161 330]]
+
+Classification report
+              precision    recall  f1-score   support
+
+        high       0.50      0.44      0.47       252
+         low       0.65      0.66      0.65       497
+      medium       0.55      0.57      0.56       581
+
+    accuracy                           0.58      1330
+   macro avg       0.56      0.56      0.56      1330
+weighted avg       0.58      0.58      0.58      1330
+
+
+ ====== RESULTS k-NN (k=15) ====== 
+ Accuracy: 0.587
+
+CONFUSION MATRIX:
+[[112  15 125]
+ [ 19 327 151]
+ [ 83 156 342]]
+
+Classification report
+              precision    recall  f1-score   support
+
+        high       0.52      0.44      0.48       252
+         low       0.66      0.66      0.66       497
+      medium       0.55      0.59      0.57       581
+
+    accuracy                           0.59      1330
+   macro avg       0.58      0.56      0.57      1330
+weighted avg       0.59      0.59      0.59      1330
+
+
+(.venv) E:\_PROG_STUDIES\ITHS\Phyton4AI\wine-data>

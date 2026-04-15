@@ -1,0 +1,148 @@
+=== DATA SHAPE ===
+(5318, 13)
+
+ ====== RESULTS k-NN (k=1) ====== 
+ Accuracy: 0.691
+
+CONFUSION MATRIX:
+[[652 181]
+ [230 267]]
+
+Classification report
+              precision    recall  f1-score   support
+
+        high       0.74      0.78      0.76       833
+    ordinary       0.60      0.54      0.57       497
+
+    accuracy                           0.69      1330
+   macro avg       0.67      0.66      0.66      1330
+weighted avg       0.69      0.69      0.69      1330
+
+
+ ====== RESULTS k-NN (k=3) ====== 
+ Accuracy: 0.704
+
+CONFUSION MATRIX:
+[[663 170]
+ [224 273]]
+
+Classification report
+              precision    recall  f1-score   support
+
+        high       0.75      0.80      0.77       833
+    ordinary       0.62      0.55      0.58       497
+
+    accuracy                           0.70      1330
+   macro avg       0.68      0.67      0.68      1330
+weighted avg       0.70      0.70      0.70      1330
+
+
+ ====== RESULTS k-NN (k=5) ====== 
+ Accuracy: 0.721
+
+CONFUSION MATRIX:
+[[681 152]
+ [219 278]]
+
+Classification report
+              precision    recall  f1-score   support
+
+        high       0.76      0.82      0.79       833
+    ordinary       0.65      0.56      0.60       497
+
+    accuracy                           0.72      1330
+   macro avg       0.70      0.69      0.69      1330
+weighted avg       0.72      0.72      0.72      1330
+
+
+ ====== RESULTS k-NN (k=7) ====== 
+ Accuracy: 0.730
+
+CONFUSION MATRIX:
+[[693 140]
+ [219 278]]
+
+Classification report
+              precision    recall  f1-score   support
+
+        high       0.76      0.83      0.79       833
+    ordinary       0.67      0.56      0.61       497
+
+    accuracy                           0.73      1330
+   macro avg       0.71      0.70      0.70      1330
+weighted avg       0.72      0.73      0.72      1330
+
+
+ ====== RESULTS k-NN (k=9) ====== 
+ Accuracy: 0.717
+
+CONFUSION MATRIX:
+[[683 150]
+ [226 271]]
+
+Classification report
+              precision    recall  f1-score   support
+
+        high       0.75      0.82      0.78       833
+    ordinary       0.64      0.55      0.59       497
+
+    accuracy                           0.72      1330
+   macro avg       0.70      0.68      0.69      1330
+weighted avg       0.71      0.72      0.71      1330
+
+
+ ====== RESULTS k-NN (k=11) ====== 
+ Accuracy: 0.730
+
+CONFUSION MATRIX:
+[[698 135]
+ [224 273]]
+
+Classification report
+              precision    recall  f1-score   support
+
+        high       0.76      0.84      0.80       833
+    ordinary       0.67      0.55      0.60       497
+
+    accuracy                           0.73      1330
+   macro avg       0.71      0.69      0.70      1330
+weighted avg       0.72      0.73      0.72      1330
+
+
+ ====== RESULTS k-NN (k=13) ====== 
+ Accuracy: 0.721
+
+CONFUSION MATRIX:
+[[699 134]
+ [237 260]]
+
+Classification report
+              precision    recall  f1-score   support
+
+        high       0.75      0.84      0.79       833
+    ordinary       0.66      0.52      0.58       497
+
+    accuracy                           0.72      1330
+   macro avg       0.70      0.68      0.69      1330
+weighted avg       0.71      0.72      0.71      1330
+
+
+ ====== RESULTS k-NN (k=15) ====== 
+ Accuracy: 0.729
+
+CONFUSION MATRIX:
+[[699 134]
+ [227 270]]
+
+Classification report
+              precision    recall  f1-score   support
+
+        high       0.75      0.84      0.79       833
+    ordinary       0.67      0.54      0.60       497
+
+    accuracy                           0.73      1330
+   macro avg       0.71      0.69      0.70      1330
+weighted avg       0.72      0.73      0.72      1330
+
+
+(.venv) E:\_PROG_STUDIES\ITHS\Phyton4AI\wine-data>

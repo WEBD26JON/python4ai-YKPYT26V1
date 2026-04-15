@@ -1,0 +1,20 @@
+wine-data/
+├─ data/
+│ ├── wine-data-raw.csv
+│ ├──  ...
+│ └──  ...
+├─ outputs/
+│ └── bias_report_YYYY-MM-DD_hhmmss.txt
+├── tools/
+│ ├── init.py
+│ └── logger.py
+├─ main.py
+├── scripts/
+└── hearts-*.py
+
+Data types:
+data/
+├── wine-data-raw.csv       # raw data
+├── wine-clean.csv          # after data-clean.py
+├── wine-prepared-3.csv     # three quality classes: low / medium / high
+└── wine-prepared-2.csv     # binary quality classes: ordinary / high

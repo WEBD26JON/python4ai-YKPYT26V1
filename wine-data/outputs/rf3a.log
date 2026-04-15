@@ -1,0 +1,166 @@
+(.venv) E:\_PROG_STUDIES\ITHS\Phyton4AI\wine-data>e:/_PROG_STUDIES/ITHS/Phyton4AI/wine-data/.venv/Scripts/python.exe e:/_PROG_STUDIES/ITHS/Phyton4AI/wine-data/scripts/rf.py
+
+=== RESULTS (Random Forest, depth=2, trees=100) ===
+Accuracy: 0.574
+
+CONFUSION MATRIX:
+[[  0  13 239]
+ [  0 337 160]
+ [  0 155 426]]
+
+CLASSIFICATION REPORT:
+e:\_PROG_STUDIES\ITHS\Phyton4AI\wine-data\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1833: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+e:\_PROG_STUDIES\ITHS\Phyton4AI\wine-data\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1833: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+e:\_PROG_STUDIES\ITHS\Phyton4AI\wine-data\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1833: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+              precision    recall  f1-score   support
+
+        high       0.00      0.00      0.00       252
+         low       0.67      0.68      0.67       497
+      medium       0.52      0.73      0.61       581
+
+    accuracy                           0.57      1330
+   macro avg       0.39      0.47      0.43      1330
+weighted avg       0.47      0.57      0.52      1330
+
+
+=== RESULTS (Random Forest, depth=3, trees=100) ===
+Accuracy: 0.586
+
+CONFUSION MATRIX:
+[[ 15  10 227]
+ [  1 329 167]
+ [  7 138 436]]
+
+CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+        high       0.65      0.06      0.11       252
+         low       0.69      0.66      0.68       497
+      medium       0.53      0.75      0.62       581
+
+    accuracy                           0.59      1330
+   macro avg       0.62      0.49      0.47      1330
+weighted avg       0.61      0.59      0.54      1330
+
+
+=== RESULTS (Random Forest, depth=4, trees=100) ===
+Accuracy: 0.610
+
+CONFUSION MATRIX:
+[[ 49   9 194]
+ [  3 328 166]
+ [ 22 125 434]]
+
+CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+        high       0.66      0.19      0.30       252
+         low       0.71      0.66      0.68       497
+      medium       0.55      0.75      0.63       581
+
+    accuracy                           0.61      1330
+   macro avg       0.64      0.53      0.54      1330
+weighted avg       0.63      0.61      0.59      1330
+
+
+=== RESULTS (Random Forest, depth=5, trees=100) ===
+Accuracy: 0.619
+
+CONFUSION MATRIX:
+[[ 60   8 184]
+ [  4 342 151]
+ [ 28 132 421]]
+
+CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+        high       0.65      0.24      0.35       252
+         low       0.71      0.69      0.70       497
+      medium       0.56      0.72      0.63       581
+
+    accuracy                           0.62      1330
+   macro avg       0.64      0.55      0.56      1330
+weighted avg       0.63      0.62      0.60      1330
+
+
+=== RESULTS (Random Forest, depth=6, trees=100) ===
+Accuracy: 0.631
+
+CONFUSION MATRIX:
+[[ 70   9 173]
+ [  3 349 145]
+ [ 35 126 420]]
+
+CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+        high       0.65      0.28      0.39       252
+         low       0.72      0.70      0.71       497
+      medium       0.57      0.72      0.64       581
+
+    accuracy                           0.63      1330
+   macro avg       0.65      0.57      0.58      1330
+weighted avg       0.64      0.63      0.62      1330
+
+
+=== RESULTS (Random Forest, depth=7, trees=100) ===
+Accuracy: 0.637
+
+CONFUSION MATRIX:
+[[ 80   9 163]
+ [  5 355 137]
+ [ 40 129 412]]
+
+CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+        high       0.64      0.32      0.42       252
+         low       0.72      0.71      0.72       497
+      medium       0.58      0.71      0.64       581
+
+    accuracy                           0.64      1330
+   macro avg       0.65      0.58      0.59      1330
+weighted avg       0.64      0.64      0.63      1330
+
+
+=== RESULTS (Random Forest, depth=8, trees=100) ===
+Accuracy: 0.641
+
+CONFUSION MATRIX:
+[[ 91  10 151]
+ [  6 354 137]
+ [ 41 132 408]]
+
+CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+        high       0.66      0.36      0.47       252
+         low       0.71      0.71      0.71       497
+      medium       0.59      0.70      0.64       581
+
+    accuracy                           0.64      1330
+   macro avg       0.65      0.59      0.61      1330
+weighted avg       0.65      0.64      0.63      1330
+
+
+=== RESULTS (Random Forest, depth=None, trees=100) ===
+Accuracy: 0.635
+
+CONFUSION MATRIX:
+[[108   7 137]
+ [  7 351 139]
+ [ 56 139 386]]
+
+CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+        high       0.63      0.43      0.51       252
+         low       0.71      0.71      0.71       497
+      medium       0.58      0.66      0.62       581
+
+    accuracy                           0.64      1330
+   macro avg       0.64      0.60      0.61      1330
+weighted avg       0.64      0.64      0.63      1330

@@ -1,0 +1,48 @@
+
+=== RAW DATA (HEAD) ===
+   Unnamed: 0  fixed acidity  volatile acidity  citric acid  ...  alcohol  quality  color  high_quality
+0           0            7.4              0.70         0.00  ...      9.4        5    red             0
+1           1            7.8              0.88         0.00  ...      9.8        5    red             0
+2           2            7.8              0.76         0.04  ...      9.8        5    red             0
+3           3           11.2              0.28         0.56  ...      9.8        6    red             1
+4           4            7.4              0.70         0.00  ...      9.4        5    red             0
+
+[5 rows x 15 columns]
+
+=== RAW INFO ===
+<class 'pandas.DataFrame'>
+RangeIndex: 6497 entries, 0 to 6496
+Data columns (total 15 columns):
+ #   Column                Non-Null Count  Dtype  
+---  ------                --------------  -----  
+ 0   Unnamed: 0            6497 non-null   int64  
+ 1   fixed acidity         6497 non-null   float64
+ 2   volatile acidity      6497 non-null   float64
+ 3   citric acid           6497 non-null   float64
+ 4   residual sugar        6497 non-null   float64
+ 5   chlorides             6497 non-null   float64
+ 6   free sulfur dioxide   6497 non-null   float64
+ 7   total sulfur dioxide  6497 non-null   float64
+ 8   density               6497 non-null   float64
+ 9   pH                    6497 non-null   float64
+ 10  sulphates             6497 non-null   float64
+ 11  alcohol               6497 non-null   float64
+ 12  quality               6497 non-null   int64  
+ 13  color                 6497 non-null   str    
+ 14  high_quality          6497 non-null   int64  
+dtypes: float64(11), int64(3), str(1)
+memory usage: 761.5 KB
+
+
+=== RAW DESCRIBE ===
+        Unnamed: 0  fixed acidity  volatile acidity  ...      alcohol      quality  high_quality
+count  6497.000000    6497.000000       6497.000000  ...  6497.000000  6497.000000   6497.000000
+mean   2042.535632       7.215307          0.339666  ...    10.491801     5.818378      0.633061
+std    1436.926393       1.296434          0.164636  ...     1.192712     0.873255      0.482007
+min       0.000000       3.800000          0.080000  ...     8.000000     3.000000      0.000000
+25%     812.000000       6.400000          0.230000  ...     9.500000     5.000000      0.000000
+50%    1649.000000       7.000000          0.290000  ...    10.300000     6.000000      1.000000
+75%    3273.000000       7.700000          0.400000  ...    11.300000     6.000000      1.000000
+max    4897.000000      15.900000          1.580000  ...    14.900000     9.000000      1.000000
+
+[8 rows x 14 columns]

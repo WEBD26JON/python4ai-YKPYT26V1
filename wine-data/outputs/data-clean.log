@@ -1,0 +1,169 @@
+
+(.venv) E:\_PROG_STUDIES\ITHS\Phyton4AI\wine-data>py scripts\data-clean.py
+=== RAW HEAD ===
+   Unnamed: 0  fixed acidity  volatile acidity  citric acid  residual sugar  chlorides  ...    pH  sulphates  alcohol  quality  color  high_quality
+0           0            7.4              0.70         0.00             1.9      0.076  ...  3.51       0.56      9.4        5    red             0
+1           1            7.8              0.88         0.00             2.6      0.098  ...  3.20       0.68      9.8        5    red             0
+2           2            7.8              0.76         0.04             2.3      0.092  ...  3.26       0.65      9.8        5    red             0
+3           3           11.2              0.28         0.56             1.9      0.075  ...  3.16       0.58      9.8        6    red             1
+4           4            7.4              0.70         0.00             1.9      0.076  ...  3.51       0.56      9.4        5    red             0
+
+[5 rows x 15 columns]
+
+=== RAW INFO ===
+<class 'pandas.DataFrame'>
+RangeIndex: 6497 entries, 0 to 6496
+Data columns (total 15 columns):
+ #   Column                Non-Null Count  Dtype
+---  ------                --------------  -----
+ 0   Unnamed: 0            6497 non-null   int64
+ 1   fixed acidity         6497 non-null   float64
+ 2   volatile acidity      6497 non-null   float64
+ 3   citric acid           6497 non-null   float64
+ 4   residual sugar        6497 non-null   float64
+ 5   chlorides             6497 non-null   float64
+ 6   free sulfur dioxide   6497 non-null   float64
+ 7   total sulfur dioxide  6497 non-null   float64
+ 8   density               6497 non-null   float64
+ 9   pH                    6497 non-null   float64
+ 10  sulphates             6497 non-null   float64
+ 11  alcohol               6497 non-null   float64
+ 12  quality               6497 non-null   int64
+ 13  color                 6497 non-null   str
+ 14  high_quality          6497 non-null   int64
+dtypes: float64(11), int64(3), str(1)
+memory usage: 761.5 KB
+None
+
+=== RAW DESCRIBE ===
+         Unnamed: 0  fixed acidity  volatile acidity  citric acid  residual sugar  ...    sulphates      alcohol      quality  color  high_quality
+count   6497.000000    6497.000000       6497.000000  6497.000000     6497.000000  ...  6497.000000  6497.000000  6497.000000   6497   6497.000000
+unique          NaN            NaN               NaN          NaN             NaN  ...          NaN          NaN          NaN      2           NaN
+top             NaN            NaN               NaN          NaN             NaN  ...          NaN          NaN          NaN  white           NaN
+freq            NaN            NaN               NaN          NaN             NaN  ...          NaN          NaN          NaN   4898           NaN
+mean    2042.535632       7.215307          0.339666     0.318633        5.443235  ...     0.531268    10.491801     5.818378    NaN      0.633061
+std     1436.926393       1.296434          0.164636     0.145318        4.757804  ...     0.148806     1.192712     0.873255    NaN      0.482007
+min        0.000000       3.800000          0.080000     0.000000        0.600000  ...     0.220000     8.000000     3.000000    NaN      0.000000
+25%      812.000000       6.400000          0.230000     0.250000        1.800000  ...     0.430000     9.500000     5.000000    NaN      0.000000
+50%     1649.000000       7.000000          0.290000     0.310000        3.000000  ...     0.510000    10.300000     6.000000    NaN      1.000000
+75%     3273.000000       7.700000          0.400000     0.390000        8.100000  ...     0.600000    11.300000     6.000000    NaN      1.000000
+max     4897.000000      15.900000          1.580000     1.660000       65.800000  ...     2.000000    14.900000     9.000000    NaN      1.000000
+
+[11 rows x 15 columns]
+
+Unnecessary columns [Unnamed, high_quality] droped
+
+=== MISSING VALUES ===
+fixed acidity           0
+volatile acidity        0
+citric acid             0
+residual sugar          0
+chlorides               0
+free sulfur dioxide     0
+total sulfur dioxide    0
+density                 0
+pH                      0
+sulphates               0
+alcohol                 0
+quality                 0
+color                   0
+dtype: int64
+
+=== DUPLICATES:  1177
+
+=== DUPLICATE ROWS SAMPLE ===
+      fixed acidity  volatile acidity  citric acid  residual sugar  chlorides  free sulfur dioxide  ...  density    pH  sulphates    alcohol  quality  color
+6270            4.9             0.335         0.14             1.3      0.036                 69.0  ...  0.99212  3.47       0.46  10.466667        5  white
+6271            4.9             0.335         0.14             1.3      0.036                 69.0  ...  0.99212  3.47       0.46  10.466667        5  white
+5540            4.9             0.345         0.34             1.0      0.068                 32.0  ...  0.99138  3.24       0.40  10.100000        5  white
+5549            4.9             0.345         0.34             1.0      0.068                 32.0  ...  0.99138  3.24       0.40  10.100000        5  white
+4589            5.0             0.270         0.32             4.5      0.032                 58.0  ...  0.98956  3.45       0.31  12.600000        7  white
+4606            5.0             0.270         0.32             4.5      0.032                 58.0  ...  0.98956  3.45       0.31  12.600000        7  white
+2802            5.0             0.330         0.16             1.5      0.049                 10.0  ...  0.99170  3.48       0.44  10.700000        6  white
+2803            5.0             0.330         0.16             1.5      0.049                 10.0  ...  0.99170  3.48       0.44  10.700000        6  white
+2812            5.0             0.330         0.16             1.5      0.049                 10.0  ...  0.99170  3.48       0.44  10.700000        6  white
+6043            5.0             0.350         0.25             7.8      0.031                 24.0  ...  0.99241  3.39       0.40  11.300000        6  white
+
+[10 rows x 13 columns]
+
+=== DUPLICATES BY COLOR ===
+color
+white    1709
+red       460
+Name: count, dtype: int64
+
+Cleaninng duplicates ...
+
+=== CLEANED DTYPES ===
+fixed acidity           float64
+volatile acidity        float64
+citric acid             float64
+residual sugar          float64
+chlorides               float64
+free sulfur dioxide     float64
+total sulfur dioxide    float64
+density                 float64
+pH                      float64
+sulphates               float64
+alcohol                 float64
+quality                   int64
+color                       str
+dtype: object
+
+=== CLEANED VALUE COUNTS: color ===
+color
+white    3961
+red      1359
+Name: count, dtype: int64
+=== CLEANED HEAD ===
+   fixed acidity  volatile acidity  citric acid  residual sugar  chlorides  free sulfur dioxide  ...  density    pH  sulphates  alcohol  quality  color
+0            7.4              0.70         0.00             1.9      0.076                 11.0  ...   0.9978  3.51       0.56      9.4        5    red
+1            7.8              0.88         0.00             2.6      0.098                 25.0  ...   0.9968  3.20       0.68      9.8        5    red
+2            7.8              0.76         0.04             2.3      0.092                 15.0  ...   0.9970  3.26       0.65      9.8        5    red
+3           11.2              0.28         0.56             1.9      0.075                 17.0  ...   0.9980  3.16       0.58      9.8        6    red
+5            7.4              0.66         0.00             1.8      0.075                 13.0  ...   0.9978  3.51       0.56      9.4        5    red
+
+[5 rows x 13 columns]
+
+=== CLEANED INFO ===
+<class 'pandas.DataFrame'>
+Index: 5320 entries, 0 to 6496
+Data columns (total 13 columns):
+ #   Column                Non-Null Count  Dtype
+---  ------                --------------  -----
+ 0   fixed acidity         5320 non-null   float64
+ 1   volatile acidity      5320 non-null   float64
+ 2   citric acid           5320 non-null   float64
+ 3   residual sugar        5320 non-null   float64
+ 4   chlorides             5320 non-null   float64
+ 5   free sulfur dioxide   5320 non-null   float64
+ 6   total sulfur dioxide  5320 non-null   float64
+ 7   density               5320 non-null   float64
+ 8   pH                    5320 non-null   float64
+ 9   sulphates             5320 non-null   float64
+ 10  alcohol               5320 non-null   float64
+ 11  quality               5320 non-null   int64
+ 12  color                 5320 non-null   str
+dtypes: float64(11), int64(1), str(1)
+memory usage: 581.9 KB
+None
+
+=== CLEANED DESCRIBE ===
+        fixed acidity  volatile acidity  citric acid  residual sugar    chlorides  ...           pH    sulphates      alcohol      quality  color
+count     5320.000000       5320.000000  5320.000000     5320.000000  5320.000000  ...  5320.000000  5320.000000  5320.000000  5320.000000   5320
+unique            NaN               NaN          NaN             NaN          NaN  ...          NaN          NaN          NaN          NaN      2
+top               NaN               NaN          NaN             NaN          NaN  ...          NaN          NaN          NaN          NaN  white
+freq              NaN               NaN          NaN             NaN          NaN  ...          NaN          NaN          NaN          NaN   3961
+mean         7.215179          0.344130     0.318494        5.048477     0.056690  ...     3.224664     0.533357    10.549241     5.795677    NaN
+std          1.319671          0.168248     0.147157        4.500180     0.036863  ...     0.160379     0.149743     1.185933     0.879772    NaN
+min          3.800000          0.080000     0.000000        0.600000     0.009000  ...     2.720000     0.220000     8.000000     3.000000    NaN
+25%          6.400000          0.230000     0.240000        1.800000     0.038000  ...     3.110000     0.430000     9.500000     5.000000    NaN
+50%          7.000000          0.300000     0.310000        2.700000     0.047000  ...     3.210000     0.510000    10.400000     6.000000    NaN
+75%          7.700000          0.410000     0.400000        7.500000     0.066000  ...     3.330000     0.600000    11.400000     6.000000    NaN
+max         15.900000          1.580000     1.660000       65.800000     0.611000  ...     4.010000     2.000000    14.900000     9.000000    NaN
+
+[11 rows x 13 columns]
+
+Saved cleaned dataset to: E:\_PROG_STUDIES\ITHS\Phyton4AI\wine-data\data\wine-clean.csv
+
+(.venv) E:\_PROG_STUDIES\ITHS\Phyton4AI\wine-data>

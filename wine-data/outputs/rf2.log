@@ -1,0 +1,147 @@
+(.venv) E:\_PROG_STUDIES\ITHS\Phyton4AI\wine-data>e:/_PROG_STUDIES/ITHS/Phyton4AI/wine-data/.venv/Scripts/python.exe e:/_PROG_STUDIES/ITHS/Phyton4AI/wine-data/scripts/rf.py
+
+=== RESULTS (Random Forest, depth=2, trees=100) ===
+Accuracy: 0.708
+
+CONFUSION MATRIX:
+[[768  65]
+ [324 173]]
+
+CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+        high       0.70      0.92      0.80       833
+    ordinary       0.73      0.35      0.47       497
+
+    accuracy                           0.71      1330
+   macro avg       0.72      0.64      0.63      1330
+weighted avg       0.71      0.71      0.68      1330
+
+
+=== RESULTS (Random Forest, depth=3, trees=100) ===
+Accuracy: 0.723
+
+CONFUSION MATRIX:
+[[729 104]
+ [265 232]]
+
+CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+        high       0.73      0.88      0.80       833
+    ordinary       0.69      0.47      0.56       497
+
+    accuracy                           0.72      1330
+   macro avg       0.71      0.67      0.68      1330
+weighted avg       0.72      0.72      0.71      1330
+
+
+=== RESULTS (Random Forest, depth=4, trees=100) ===
+Accuracy: 0.729
+
+CONFUSION MATRIX:
+[[721 112]
+ [249 248]]
+
+CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+        high       0.74      0.87      0.80       833
+    ordinary       0.69      0.50      0.58       497
+
+    accuracy                           0.73      1330
+   macro avg       0.72      0.68      0.69      1330
+weighted avg       0.72      0.73      0.72      1330
+
+
+=== RESULTS (Random Forest, depth=5, trees=100) ===
+Accuracy: 0.741
+
+CONFUSION MATRIX:
+[[718 115]
+ [229 268]]
+
+CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+        high       0.76      0.86      0.81       833
+    ordinary       0.70      0.54      0.61       497
+
+    accuracy                           0.74      1330
+   macro avg       0.73      0.70      0.71      1330
+weighted avg       0.74      0.74      0.73      1330
+
+
+=== RESULTS (Random Forest, depth=6, trees=100) ===
+Accuracy: 0.747
+
+CONFUSION MATRIX:
+[[719 114]
+ [222 275]]
+
+CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+        high       0.76      0.86      0.81       833
+    ordinary       0.71      0.55      0.62       497
+
+    accuracy                           0.75      1330
+   macro avg       0.74      0.71      0.72      1330
+weighted avg       0.74      0.75      0.74      1330
+
+
+=== RESULTS (Random Forest, depth=7, trees=100) ===
+Accuracy: 0.744
+
+CONFUSION MATRIX:
+[[705 128]
+ [212 285]]
+
+CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+        high       0.77      0.85      0.81       833
+    ordinary       0.69      0.57      0.63       497
+
+    accuracy                           0.74      1330
+   macro avg       0.73      0.71      0.72      1330
+weighted avg       0.74      0.74      0.74      1330
+
+
+=== RESULTS (Random Forest, depth=8, trees=100) ===
+Accuracy: 0.754
+
+CONFUSION MATRIX:
+[[713 120]
+ [207 290]]
+
+CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+        high       0.78      0.86      0.81       833
+    ordinary       0.71      0.58      0.64       497
+
+    accuracy                           0.75      1330
+   macro avg       0.74      0.72      0.73      1330
+weighted avg       0.75      0.75      0.75      1330
+
+
+=== RESULTS (Random Forest, depth=None, trees=100) ===
+Accuracy: 0.757
+
+CONFUSION MATRIX:
+[[713 120]
+ [203 294]]
+
+CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+        high       0.78      0.86      0.82       833
+    ordinary       0.71      0.59      0.65       497
+
+    accuracy                           0.76      1330
+   macro avg       0.74      0.72      0.73      1330
+weighted avg       0.75      0.76      0.75      1330
+
+
+(.venv) E:\_PROG_STUDIES\ITHS\Phyton4AI\wine-data>

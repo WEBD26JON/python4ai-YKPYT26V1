@@ -1,0 +1,264 @@
+== RESULTS (Decision Tree, depth=2) ===
+Accuracy: 0.525
+
+CONFUSION MATRIX:
+[[  0   0   3   5   0   0   0]
+ [  0   0  31  21   0   0   0]
+ [  0   0 248 190   0   0   0]
+ [  0   0 130 450   0   0   0]
+ [  0   0   8 206   0   0   0]
+ [  0   0   0  37   0   0   0]
+ [  0   0   0   1   0   0   0]]
+
+CLASSIFICATION REPORT:
+e:\_PROG_STUDIES\ITHS\Phyton4AI\wine-data\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1833: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+e:\_PROG_STUDIES\ITHS\Phyton4AI\wine-data\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1833: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+e:\_PROG_STUDIES\ITHS\Phyton4AI\wine-data\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1833: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+              precision    recall  f1-score   support
+
+           3       0.00      0.00      0.00         8
+           4       0.00      0.00      0.00        52
+           5       0.59      0.57      0.58       438
+           6       0.49      0.78      0.60       580
+           7       0.00      0.00      0.00       214
+           8       0.00      0.00      0.00        37
+           9       0.00      0.00      0.00         1
+
+    accuracy                           0.52      1330
+   macro avg       0.15      0.19      0.17      1330
+weighted avg       0.41      0.52      0.45      1330
+
+
+=== RESULTS (Decision Tree, depth=3) ===
+Accuracy: 0.518
+
+CONFUSION MATRIX:
+[[  0   0   4   3   1   0   0]
+ [  0   0  31  20   1   0   0]
+ [  0   0 310 122   6   0   0]
+ [  0   0 198 325  57   0   0]
+ [  0   0  22 138  54   0   0]
+ [  0   0   1  22  14   0   0]
+ [  0   0   0   1   0   0   0]]
+
+CLASSIFICATION REPORT:
+e:\_PROG_STUDIES\ITHS\Phyton4AI\wine-data\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1833: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+e:\_PROG_STUDIES\ITHS\Phyton4AI\wine-data\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1833: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+e:\_PROG_STUDIES\ITHS\Phyton4AI\wine-data\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1833: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+              precision    recall  f1-score   support
+
+           3       0.00      0.00      0.00         8
+           4       0.00      0.00      0.00        52
+           5       0.55      0.71      0.62       438
+           6       0.52      0.56      0.54       580
+           7       0.41      0.25      0.31       214
+           8       0.00      0.00      0.00        37
+           9       0.00      0.00      0.00         1
+
+    accuracy                           0.52      1330
+   macro avg       0.21      0.22      0.21      1330
+weighted avg       0.47      0.52      0.49      1330
+
+
+=== RESULTS (Decision Tree, depth=4) ===
+Accuracy: 0.532
+
+CONFUSION MATRIX:
+[[  0   0   4   3   1   0   0]
+ [  0   0  34  15   3   0   0]
+ [  0   0 282 153   3   0   0]
+ [  0   0 154 379  47   0   0]
+ [  0   0   7 161  46   0   0]
+ [  0   0   0  23  14   0   0]
+ [  0   0   0   1   0   0   0]]
+
+CLASSIFICATION REPORT:
+e:\_PROG_STUDIES\ITHS\Phyton4AI\wine-data\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1833: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+e:\_PROG_STUDIES\ITHS\Phyton4AI\wine-data\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1833: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+e:\_PROG_STUDIES\ITHS\Phyton4AI\wine-data\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1833: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+              precision    recall  f1-score   support
+
+           3       0.00      0.00      0.00         8
+           4       0.00      0.00      0.00        52
+           5       0.59      0.64      0.61       438
+           6       0.52      0.65      0.58       580
+           7       0.40      0.21      0.28       214
+           8       0.00      0.00      0.00        37
+           9       0.00      0.00      0.00         1
+
+    accuracy                           0.53      1330
+   macro avg       0.22      0.22      0.21      1330
+weighted avg       0.48      0.53      0.50      1330
+
+
+=== RESULTS (Decision Tree, depth=5) ===
+Accuracy: 0.532
+
+CONFUSION MATRIX:
+[[  0   0   4   3   1   0   0]
+ [  0   0  36  13   3   0   0]
+ [  0   0 271 163   4   0   0]
+ [  0   0 151 381  48   0   0]
+ [  0   0   7 151  56   0   0]
+ [  0   0   0  23  14   0   0]
+ [  0   0   0   1   0   0   0]]
+
+CLASSIFICATION REPORT:
+e:\_PROG_STUDIES\ITHS\Phyton4AI\wine-data\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1833: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+e:\_PROG_STUDIES\ITHS\Phyton4AI\wine-data\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1833: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+e:\_PROG_STUDIES\ITHS\Phyton4AI\wine-data\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1833: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+              precision    recall  f1-score   support
+
+           3       0.00      0.00      0.00         8
+           4       0.00      0.00      0.00        52
+           5       0.58      0.62      0.60       438
+           6       0.52      0.66      0.58       580
+           7       0.44      0.26      0.33       214
+           8       0.00      0.00      0.00        37
+           9       0.00      0.00      0.00         1
+
+    accuracy                           0.53      1330
+   macro avg       0.22      0.22      0.22      1330
+weighted avg       0.49      0.53      0.50      1330
+
+
+=== RESULTS (Decision Tree, depth=6) ===
+Accuracy: 0.530
+
+CONFUSION MATRIX:
+[[  0   0   3   4   1   0   0]
+ [  0   0  37  14   1   0   0]
+ [  0   2 271 155  10   0   0]
+ [  0   3 148 366  63   0   0]
+ [  0   0   7 139  68   0   0]
+ [  0   0   1  22  14   0   0]
+ [  0   0   0   1   0   0   0]]
+
+CLASSIFICATION REPORT:
+e:\_PROG_STUDIES\ITHS\Phyton4AI\wine-data\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1833: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+e:\_PROG_STUDIES\ITHS\Phyton4AI\wine-data\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1833: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+e:\_PROG_STUDIES\ITHS\Phyton4AI\wine-data\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1833: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+              precision    recall  f1-score   support
+
+           3       0.00      0.00      0.00         8
+           4       0.00      0.00      0.00        52
+           5       0.58      0.62      0.60       438
+           6       0.52      0.63      0.57       580
+           7       0.43      0.32      0.37       214
+           8       0.00      0.00      0.00        37
+           9       0.00      0.00      0.00         1
+
+    accuracy                           0.53      1330
+   macro avg       0.22      0.22      0.22      1330
+weighted avg       0.49      0.53      0.51      1330
+
+
+=== RESULTS (Decision Tree, depth=7) ===
+Accuracy: 0.509
+
+CONFUSION MATRIX:
+[[  0   0   3   5   0   0   0]
+ [  0   1  33  17   1   0   0]
+ [  0   2 272 159   5   0   0]
+ [  0   3 180 346  50   1   0]
+ [  0   0  18 137  58   1   0]
+ [  0   0   2  21  14   0   0]
+ [  0   0   1   0   0   0   0]]
+
+CLASSIFICATION REPORT:
+e:\_PROG_STUDIES\ITHS\Phyton4AI\wine-data\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1833: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+e:\_PROG_STUDIES\ITHS\Phyton4AI\wine-data\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1833: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+e:\_PROG_STUDIES\ITHS\Phyton4AI\wine-data\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1833: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+              precision    recall  f1-score   support
+
+           3       0.00      0.00      0.00         8
+           4       0.17      0.02      0.03        52
+           5       0.53      0.62      0.57       438
+           6       0.51      0.60      0.55       580
+           7       0.45      0.27      0.34       214
+           8       0.00      0.00      0.00        37
+           9       0.00      0.00      0.00         1
+
+    accuracy                           0.51      1330
+   macro avg       0.24      0.22      0.21      1330
+weighted avg       0.48      0.51      0.48      1330
+
+
+=== RESULTS (Decision Tree, depth=8) ===
+Accuracy: 0.508
+
+CONFUSION MATRIX:
+[[  0   0   3   4   1   0   0]
+ [  0   3  35  12   2   0   0]
+ [  1  10 278 137  12   0   0]
+ [  0   5 177 318  79   1   0]
+ [  0   0  17 121  76   0   0]
+ [  0   0   2  19  16   0   0]
+ [  0   0   1   0   0   0   0]]
+
+CLASSIFICATION REPORT:
+e:\_PROG_STUDIES\ITHS\Phyton4AI\wine-data\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1833: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+e:\_PROG_STUDIES\ITHS\Phyton4AI\wine-data\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1833: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+e:\_PROG_STUDIES\ITHS\Phyton4AI\wine-data\.venv\Lib\site-packages\sklearn\metrics\_classification.py:1833: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", result.shape[0])
+              precision    recall  f1-score   support
+
+           3       0.00      0.00      0.00         8
+           4       0.17      0.06      0.09        52
+           5       0.54      0.63      0.58       438
+           6       0.52      0.55      0.53       580
+           7       0.41      0.36      0.38       214
+           8       0.00      0.00      0.00        37
+           9       0.00      0.00      0.00         1
+
+    accuracy                           0.51      1330
+   macro avg       0.23      0.23      0.23      1330
+weighted avg       0.48      0.51      0.49      1330
+
+
+=== RESULTS (Decision Tree, depth=None) ===
+Accuracy: 0.452
+
+CONFUSION MATRIX:
+[[  0   1   4   2   1   0   0]
+ [  0   7  23  16   6   0   0]
+ [  0  26 225 159  23   5   0]
+ [  3  16 152 280 110  19   0]
+ [  0   1  23  86  84  19   1]
+ [  0   0   4  14  14   5   0]
+ [  0   1   0   0   0   0   0]]
+
+CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+           3       0.00      0.00      0.00         8
+           4       0.13      0.13      0.13        52
+           5       0.52      0.51      0.52       438
+           6       0.50      0.48      0.49       580
+           7       0.35      0.39      0.37       214
+           8       0.10      0.14      0.12        37
+           9       0.00      0.00      0.00         1
+
+    accuracy                           0.45      1330
+   macro avg       0.23      0.24      0.23      1330
+weighted avg       0.46      0.45      0.45      1330

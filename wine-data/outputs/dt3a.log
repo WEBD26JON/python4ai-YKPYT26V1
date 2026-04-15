@@ -1,0 +1,161 @@
+=== RESULTS (Decision Tree, depth=2) ===
+Accuracy: 0.571
+
+CONFUSION MATRIX:
+[[115   7 130]
+ [ 15 292 190]
+ [110 119 352]]
+
+CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+        high       0.48      0.46      0.47       252
+         low       0.70      0.59      0.64       497
+      medium       0.52      0.61      0.56       581
+
+    accuracy                           0.57      1330
+   macro avg       0.57      0.55      0.56      1330
+weighted avg       0.58      0.57      0.57      1330
+
+
+=== RESULTS (Decision Tree, depth=3) ===
+Accuracy: 0.575
+
+CONFUSION MATRIX:
+[[ 51  31 170]
+ [  3 397  97]
+ [ 29 235 317]]
+
+CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+        high       0.61      0.20      0.30       252
+         low       0.60      0.80      0.68       497
+      medium       0.54      0.55      0.54       581
+
+    accuracy                           0.58      1330
+   macro avg       0.59      0.52      0.51      1330
+weighted avg       0.58      0.58      0.55      1330
+
+
+=== RESULTS (Decision Tree, depth=4) ===
+Accuracy: 0.587
+
+CONFUSION MATRIX:
+[[ 86  13 153]
+ [ 10 323 164]
+ [ 58 151 372]]
+
+CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+        high       0.56      0.34      0.42       252
+         low       0.66      0.65      0.66       497
+      medium       0.54      0.64      0.59       581
+
+    accuracy                           0.59      1330
+   macro avg       0.59      0.54      0.56      1330
+weighted avg       0.59      0.59      0.58      1330
+
+
+=== RESULTS (Decision Tree, depth=5) ===
+Accuracy: 0.613
+
+CONFUSION MATRIX:
+[[ 87  17 148]
+ [  9 384 104]
+ [ 52 185 344]]
+
+CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+        high       0.59      0.35      0.43       252
+         low       0.66      0.77      0.71       497
+      medium       0.58      0.59      0.58       581
+
+    accuracy                           0.61      1330
+   macro avg       0.61      0.57      0.58      1330
+weighted avg       0.61      0.61      0.60      1330
+
+
+=== RESULTS (Decision Tree, depth=6) ===
+Accuracy: 0.616
+
+CONFUSION MATRIX:
+[[108  15 129]
+ [ 16 339 142]
+ [ 67 142 372]]
+
+CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+        high       0.57      0.43      0.49       252
+         low       0.68      0.68      0.68       497
+      medium       0.58      0.64      0.61       581
+
+    accuracy                           0.62      1330
+   macro avg       0.61      0.58      0.59      1330
+weighted avg       0.62      0.62      0.61      1330
+
+
+=== RESULTS (Decision Tree, depth=7) ===
+Accuracy: 0.605
+
+CONFUSION MATRIX:
+[[ 98  11 143]
+ [ 18 351 128]
+ [ 79 146 356]]
+
+CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+        high       0.50      0.39      0.44       252
+         low       0.69      0.71      0.70       497
+      medium       0.57      0.61      0.59       581
+
+    accuracy                           0.61      1330
+   macro avg       0.59      0.57      0.58      1330
+weighted avg       0.60      0.61      0.60      1330
+
+
+=== RESULTS (Decision Tree, depth=8) ===
+Accuracy: 0.597
+
+CONFUSION MATRIX:
+[[103  15 134]
+ [ 18 342 137]
+ [ 81 151 349]]
+
+CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+        high       0.51      0.41      0.45       252
+         low       0.67      0.69      0.68       497
+      medium       0.56      0.60      0.58       581
+
+    accuracy                           0.60      1330
+   macro avg       0.58      0.57      0.57      1330
+weighted avg       0.59      0.60      0.59      1330
+
+
+=== RESULTS (Decision Tree, depth=None) ===
+Accuracy: 0.520
+
+CONFUSION MATRIX:
+[[113  29 110]
+ [ 39 285 173]
+ [123 165 293]]
+
+CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+        high       0.41      0.45      0.43       252
+         low       0.59      0.57      0.58       497
+      medium       0.51      0.50      0.51       581
+
+    accuracy                           0.52      1330
+   macro avg       0.50      0.51      0.51      1330
+weighted avg       0.52      0.52      0.52      1330
+
+
+(.venv) E:\_PROG_STUDIES\ITHS\Phyton4AI\wine-data> 
