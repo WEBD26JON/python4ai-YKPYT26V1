@@ -81,7 +81,7 @@ CONFUSION MATRIX:
 precision  recall  f1-score  support
 high       0.78    0.86      0.82      833
 ordinary   0.71    0.59      0.65      497
-accuracy                     0.76    1330
+accuracy                     0.76      1330
 </pre>
 
 Modellen hittar kvalitetsviner bra (recall 0.86) men missar
