@@ -25,3 +25,5 @@ Syftet med repositoryt är att:
 #### Kurs-projekt : 
 https://github.com/Soviet9773Red/ollama-gradio-chat<br>
 https://github.com/Soviet9773Red/python4ai-YKPYT26V1/tree/main/hearts
+https://github.com/Soviet9773Red/python4ai-YKPYT26V1/tree/main/wine-data
+
