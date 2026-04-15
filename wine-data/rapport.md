@@ -1,7 +1,7 @@
 # Wine Quality Classifier
 ### Python för AI-utveckling · YKPYT26V1
 
-Läs även [README.md](README.md) och [project-structure.md](project-structure.md)
+Läs även [README.md](README.md) och [project-structure](project-structure.txt)
 
 ---
 
