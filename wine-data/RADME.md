@@ -47,8 +47,8 @@ wine-data/
 
 ## Data Source
 
-[Wine Quality Dataset](https://archive.ics.uci.edu/dataset/186/wine+quality)
-· UCI Machine Learning Repository
+[Wine Quality Dataset](https://github.com/bencmbit/datasets/blob/master/red-wine.csv)
+· GitHub · bencmbit/datasets
 
 6 497 samples · 11 chemical features · red and white wines
 (Vinho Verde, Portugal)
