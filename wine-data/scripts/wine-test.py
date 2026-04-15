@@ -74,7 +74,7 @@ def predict(color, fixed_acidity, volatile_acidity, citric_acid,
         f"_{comment}_"
     )
 
-    return result
+    return result, round(p_high * 100, 1)
 
 # GRADIO PART
 
@@ -126,6 +126,7 @@ with gr.Blocks(title="Wine Quality Classifier") as app:
 
             btn = gr.Button("🔍 Classify wine", variant="primary", scale=0)
             output = gr.Markdown()
+            confidence = gr.Slider(0, 100, label="Model confidence - HIGH (%)", interactive=False)
 
         with gr.Column():
             gr.Markdown("### Chemical composition")
@@ -147,7 +148,7 @@ with gr.Blocks(title="Wine Quality Classifier") as app:
         inputs=[color, fixed_ac, volatile_ac, citric, sugar,
                 chlorides, free_so2, total_so2, density, ph,
                 sulphates, alcohol],
-        outputs=output
+        outputs=[output, confidence]
     )
 
     gr.Markdown("---")
