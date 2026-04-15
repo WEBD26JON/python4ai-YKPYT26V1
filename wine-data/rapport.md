@@ -14,8 +14,9 @@ stämmer överens med den deklarerade kvalitetsklassen.
 Om modellens förutsägelse avviker från etiketten kan det tyda på
 förfalskning eller felaktig märkning.
 
-**Dataset:** Wine Quality Dataset (röda och vita viner, Vinho Verde,
-Portugal). 6 497 prover, 11 kemiska parametrar, ingen saknad data.
+**Dataset:** Wine Quality Dataset — red and white wines, Vinho Verde, Portugal.<br>
+Source: [github.com/bencmbit/datasets](https://github.com/bencmbit/datasets/blob/master/red-wine.csv)<br>
+6 497 prover, 11 kemiska parametrar, ingen saknad data.
 
 **Uppgiftstyp:** Binär klassificering —
 `ordinary` (quality 3–5) vs `high` (quality 6–9).
