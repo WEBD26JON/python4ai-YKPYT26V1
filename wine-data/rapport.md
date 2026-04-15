@@ -130,7 +130,7 @@ rimligt resultat givet datasetets begränsningar.
 
 Möjliga förbättringar:
 - Större och mer balanserat dataset
-- SMOTE eller undersampling för att hantera klassimbalans
+- [SMOTE](note-smote.md) eller undersampling för att hantera klassimbalans
 - Feature importance-analys för att reducera irrelevanta parametrar
 - Validering på viner från andra regioner
 
