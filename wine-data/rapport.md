@@ -50,7 +50,7 @@ samband — särskilt alkoholhalt som stiger konsekvent med kvalitet.
 
 ## Modeller och resultat
 
-Tre modeller testades med hyperparametertuning:
+Tre modeller testades med hyperparametertuning (se även [compare.txt](compare.txt):
 
 | Modell         | Best accuracy | Parametrar  |
 |----------------|---------------|-------------|
