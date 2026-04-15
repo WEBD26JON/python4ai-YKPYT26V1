@@ -84,6 +84,12 @@ ordinary   0.71    0.59      0.65      497
 accuracy                     0.76      1330
 </pre>
 
+<pre>
+high  ordinary
+high        [ 713    120 ]   → recall = 713/833 = 0.856 ≈ 0.86  ✅
+ordinary    [ 203    294 ]   → recall = 294/497 = 0.591 ≈ 0.59  ✅
+</pre>
+
 Modellen hittar kvalitetsviner bra (recall 0.86) men missar
 en del ordinära viner (recall 0.59). Detta beror på klassimbalansen
 — 63% av datasetet är märkt som "high".
