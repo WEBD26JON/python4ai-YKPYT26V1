@@ -119,4 +119,4 @@ m Menu | e exit<br>
 
 This project demonstrates a full ML pipeline:  
 raw data → cleaning → visualization → modeling → diagnosis<br>
-[Project rapport (swedish)](./hearts/rapport.md)
+[Project rapport (swedish)](rapport.md)
